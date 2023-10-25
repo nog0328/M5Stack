@@ -149,7 +149,9 @@ void setup() {
 //  M5.Lcd.setCursor(10, 10);
   M5.Lcd.printf("funmin: %.3f\n", funmin);
 //  M5.Lcd.setCursor(10, 30);
+  M5.Lcd.setTextColor(RED);
   M5.Lcd.printf("xmin, ymin: %.3f, %.3f\n", xmin, ymin);
+  M5.Lcd.setTextColor(BLACK);
 //  M5.Lcd.setCursor(10, 50);
   M5.Lcd.printf("iterations: %d\n", iterations);
   M5.Lcd.printf("fabs: %.3f\n",fabs(fValues[1] - fValues[0]));
